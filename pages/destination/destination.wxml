@@ -1,0 +1,13 @@
+<!--input.wxml-->
+<view class="container"> 
+<text class="detail-position">您当前所在的位置是：{{detail_pos}}</text>
+<view class="input-start">
+<form bindsubmit="bindViewTap">
+    <text>请输入您的目的地址：</text>
+    <view class="input-row">
+     <input  bindinput="bindChange" placeholder="在此输入洗手间"/>
+      </view>
+      <button formType="submit">提交</button>
+      </form>
+</view>
+</view>

@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/destination/destination",
+    "pages/route/route"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "Meetme室内导航",
+    "navigationBarTextStyle":"orange"
+  }
+}

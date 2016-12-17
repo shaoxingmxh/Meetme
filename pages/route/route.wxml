@@ -1,0 +1,5 @@
+<view class="container">
+<text class="route">您的路径是：</text>
+<image class="route-image" src="route.png"></image>
+<text class="route-information">{{route}}</text>
+</view>

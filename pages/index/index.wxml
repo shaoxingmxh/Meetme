@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+    <text class="welcome">欢迎使用Meetme室内导航系统！</text>
+  <view class="input-start">
+   <form bindsubmit="bindViewTap">
+    <text class="input-start">请输入您所在的位置编号：</text>
+    <view class="input-row">
+     <input  bindinput="bindChange" placeholder="在此输入数字1"/>
+     </view>
+      <button formType="submit">提交</button>
+    </form>
+  </view>
+</view>
